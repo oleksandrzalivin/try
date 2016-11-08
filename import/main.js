@@ -1,2 +1,2 @@
-import {numOne} from "./sourse";
-console.log(numOne);
+r=require ("./source");
+console.log(r.numOne, r.f);

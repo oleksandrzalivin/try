@@ -1,2 +1,3 @@
 var numOne = 23;
-export {numOne};
+f='foop';
+module.exports={numOne,f};
