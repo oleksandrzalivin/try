@@ -55,6 +55,7 @@ app.set('view engine', 'hbs');
 app.use(express.static('./public'));
 
 /*Шаблонізована сторінка "індекс"=================*/
+app.get('/', dataIndex);
 app.get('/see', dataIndex);
 /*Шаблонізована сторінка "фрукти"===============*/
 app.get('/fruit', dataFruit);
