@@ -124,7 +124,11 @@ define(function (require) {
                             parent.childrens.splice(0, 0, val);
                         };
                     });
-                    categories.push(parent);
+                    if (id == "586e6219f36d282f8ecbb80a") {// new category
+                        categories.splice(0, 0, parent);
+                    } else {
+                        categories.push(parent);
+                    };
                 };
             })
             return categories
