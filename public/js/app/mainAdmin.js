@@ -118,7 +118,7 @@ define(function (require) {
                         if (value.parent == id ) {
                             parent.childrens.push(value);
                         };
-                        if (value._id == "5873b8ebf36d2872530dfeac") {// перший елемент - новий бланк
+                        if (value._id == "5873b8ebf36d2872530dfeac" && id !== "586e6219f36d282f8ecbb80a") {// перший елемент - новий бланк
                             var val = _.clone(value);
                             val.parent = id;
                             parent.childrens.splice(0, 0, val);
